@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 clap = { version = "3.2.16", features = ["derive"] }
+color-eyre = "0.6.2"
 humantime = "2.1.0"
 rustls = "0.20.6"
 rustls-native-certs = "0.6.2"
